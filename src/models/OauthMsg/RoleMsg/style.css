@@ -1,0 +1,12 @@
+/**
+* @Author: sunshiqiang
+* @Date: 2018-02-01 13:47:25
+* @Title: 角色管理
+*/
+/* stylelint-disable */
+
+.roleSelect {
+  :global(.ant-select-search) {
+   display: none;
+  }
+}

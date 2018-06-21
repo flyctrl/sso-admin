@@ -1,0 +1,47 @@
+/* stylelint-disable */
+.h3,
+.h4,
+.h5 {
+  display: block;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+.h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.h4 {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.h5 {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.left-warpper {
+  max-height: 600px;
+  overflow: auto;
+  margin-top: 10px;
+  border-right: 1px solid #EEE;
+  :global(.ant-tree-checkbox-disabled) :global(.ant-tree-checkbox-inner) {
+    display: none;
+  }
+}
+
+.right-warpper {
+  max-height: 600px;
+  .left {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .right {
+    max-height: 600px;
+    overflow: auto;
+  }
+}

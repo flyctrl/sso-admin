@@ -1,0 +1,19 @@
+/**
+* @Author: sunshiqiang
+* @Date: 2018-01-09 16:31:35
+* @Title: 菜单样式
+*/
+/* stylelint-disable */
+
+.lists {
+  :global(.ant-cascader-menu) {
+    max-height: calc(100vh - 55px);
+    height: auto;
+    border: 0;
+    min-width: 90px;
+    :global(.ant-cascader-menu-item) {
+      padding-left: 15px;
+      padding-right: 20px;
+    }
+  }
+}
